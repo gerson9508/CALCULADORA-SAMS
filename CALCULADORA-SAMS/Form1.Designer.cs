@@ -56,8 +56,9 @@
             // 
             // pantalla
             // 
-            this.pantalla.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.pantalla.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.pantalla.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pantalla.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pantalla.ForeColor = System.Drawing.Color.White;
             this.pantalla.Location = new System.Drawing.Point(45, 24);
             this.pantalla.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pantalla.Multiline = true;
@@ -341,7 +342,7 @@
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(386, 54);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(214, 54);
             this.salirToolStripMenuItem.Text = "salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
